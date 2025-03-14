@@ -1,0 +1,40 @@
+[dir="rtl"] {
+  /* Flip icons and other directional elements */
+  .rtl-flip {
+    transform: scaleX(-1);
+  }
+
+  /* Adjust text alignment for RTL */
+  .rtl-text-right {
+    text-align: right;
+  }
+
+  .rtl-text-left {
+    text-align: left;
+  }
+
+  /* Adjust margins and paddings for RTL */
+  .rtl-mr-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .rtl-ml-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  /* Adjust flexbox for RTL */
+  .rtl-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+}
+
+/* Font adjustments for Arabic */
+html[lang="ar"] {
+  font-family: "Amiri", "Scheherazade New", serif;
+}
+
+/* Add Arabic font imports */
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap");
+

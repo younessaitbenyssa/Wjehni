@@ -1,0 +1,40 @@
+@media print {
+  /* Hide navigation and buttons that aren't needed in print */
+  header,
+  .no-print,
+  button:not(.print-include) {
+    display: none !important;
+  }
+
+  /* Ensure the roadmap is visible in full */
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Ensure all content is visible */
+  .print-expand {
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
+  }
+
+  /* Adjust colors for better printing */
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  /* Ensure page breaks don't occur in the middle of cards */
+  .print-avoid-break {
+    page-break-inside: avoid;
+  }
+
+  /* Add page margins */
+  @page {
+    margin: 1.5cm;
+  }
+}
+
