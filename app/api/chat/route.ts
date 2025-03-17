@@ -39,7 +39,7 @@ export async function POST(req: Request) {
 
     const data = await response.json()
 
-    // Clean the response text by removing markdown formatting
+    
     const cleanedContent = data.choices[0].message.content
       .replace(/\*\*/g, "") // Remove bold formatting
       .replace(/###/g, "") // Remove header formatting
