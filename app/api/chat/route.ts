@@ -42,7 +42,7 @@ export async function POST(req: Request) {
     
     const cleanedContent = data.choices[0].message.content
       .replace(/\*\*/g, "") 
-      .replace(/###/g, "") // Remove header formatting
+      .replace(/###/g, "") 
       .replace(/\n#{1,6}\s/g, "\n") // Remove any other header levels
       .trim()
 
