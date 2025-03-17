@@ -6,7 +6,7 @@ export async function POST(req: Request) {
 
     
 
-    // Enhanced system prompt for better structure and organization
+    
     const formattedMessages = [
       {
         role: "system",
