@@ -51,7 +51,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
         position: { x: 400, y: 0 },
       })
 
-      // Process educational paths
       if (roadmapData.educationalPaths && Array.isArray(roadmapData.educationalPaths)) {
         // Calculate horizontal spacing for paths
         const pathCount = roadmapData.educationalPaths.length
