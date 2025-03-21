@@ -15,7 +15,6 @@ import "reactflow/dist/style.css"
 import "reactflow/dist/base.css"
 import { PathNode } from "@/components/path-node"
 
-// Register custom node types
 const nodeTypes = {
   pathNode: PathNode,
 }
