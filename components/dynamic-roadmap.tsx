@@ -53,7 +53,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
 
       if (roadmapData.educationalPaths && Array.isArray(roadmapData.educationalPaths)) {
         const pathCount = roadmapData.educationalPaths.length
-        const totalWidth = 800 // Total width available
+        const totalWidth = 800 
         const pathSpacing = totalWidth / (pathCount + 1)
 
         // Process each educational path
