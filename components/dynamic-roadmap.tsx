@@ -173,7 +173,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                       position: { x: nextStepX, y: 480 },
                     })
 
-                    // Connect next step to career
                     apiEdges.push({
                       id: `e-${nextStepId}-${careerNodeId}`,
                       source: nextStepId,
