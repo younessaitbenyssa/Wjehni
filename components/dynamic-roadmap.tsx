@@ -37,7 +37,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
 
   const initializeWithApiData = (roadmapData: any, profileData: any) => {
     try {
-      // Create nodes and edges based on the API response
       const apiNodes: Node[] = []
       const apiEdges: Edge[] = []
 
