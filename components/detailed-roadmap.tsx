@@ -387,4 +387,3 @@ export default function DetailedRoadmap({ roadmap }: DetailedRoadmapProps) {
     </div>
   )
 }
-
