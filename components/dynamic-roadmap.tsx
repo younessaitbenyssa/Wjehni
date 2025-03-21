@@ -40,7 +40,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
       const apiNodes: Node[] = []
       const apiEdges: Edge[] = []
 
-      // Add profile node
       apiNodes.push({
         id: "profile",
         type: "pathNode",
