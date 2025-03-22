@@ -107,7 +107,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                 position: { x: instX, y: 240 },
               })
 
-              // Connect path to institution
+            
               apiEdges.push({
                 id: `e-${pathId}-${instId}`,
                 source: pathId,
