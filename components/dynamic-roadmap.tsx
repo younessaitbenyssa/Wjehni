@@ -72,7 +72,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
             position: { x: pathX, y: 120 },
           })
 
-          // Connect profile to path
+          
           apiEdges.push({
             id: `e-profile-${pathId}`,
             source: "profile",
