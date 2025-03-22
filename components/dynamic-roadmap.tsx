@@ -60,7 +60,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
           const pathId = `path-${pathIndex}`
           const pathX = (pathIndex + 1) * pathSpacing
 
-          // Add path node
+          
           apiNodes.push({
             id: pathId,
             type: "pathNode",
