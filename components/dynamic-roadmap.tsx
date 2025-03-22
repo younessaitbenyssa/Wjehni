@@ -94,7 +94,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
               const instId = `inst-${pathIndex}-${instIndex}`
               const instX = startX + instIndex * institutionWidth
 
-              // Add institution node
               apiNodes.push({
                 id: instId,
                 type: "pathNode",
