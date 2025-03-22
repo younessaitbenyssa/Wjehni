@@ -86,7 +86,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
           
           if (path.institutions && Array.isArray(path.institutions)) {
             const institutionCount = path.institutions.length
-            const institutionWidth = 200 // Width allocated per institution
+            const institutionWidth = 200 
             const institutionSpacing = institutionWidth * institutionCount
             const startX = pathX - institutionSpacing / 2 + institutionWidth / 2
 
