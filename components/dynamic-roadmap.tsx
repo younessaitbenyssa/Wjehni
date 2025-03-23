@@ -117,7 +117,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                 markerEnd: { type: MarkerType.ArrowClosed },
               })
 
-              // Process next steps for this institution
               if (institution.nextSteps && Array.isArray(institution.nextSteps)) {
                 const nextStepCount = institution.nextSteps.length
                 const nextStepWidth = 180 // Width allocated per next step
