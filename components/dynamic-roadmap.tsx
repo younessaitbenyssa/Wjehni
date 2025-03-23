@@ -150,7 +150,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                   })
 
                   if (nextStep.careers && Array.isArray(nextStep.careers) && nextStep.careers.length > 0) {
-                    // Group careers by category or create a single career node
+                    
                     const careerNodeId = `career-${pathIndex}-${instIndex}-${nextStepIndex}`
                     const careerDetails = nextStep.careers.join(", ")
 
