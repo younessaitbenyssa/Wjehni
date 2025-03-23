@@ -127,7 +127,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                   const nextStepId = `next-${pathIndex}-${instIndex}-${nextStepIndex}`
                   const nextStepX = nextStepStartX + nextStepIndex * nextStepWidth
 
-                  // Add next step node
                   apiNodes.push({
                     id: nextStepId,
                     type: "pathNode",
