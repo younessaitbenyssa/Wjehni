@@ -141,7 +141,6 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                     position: { x: nextStepX, y: 360 },
                   })
 
-                  // Connect institution to next step
                   apiEdges.push({
                     id: `e-${instId}-${nextStepId}`,
                     source: instId,
