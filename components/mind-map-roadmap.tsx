@@ -216,7 +216,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     ],
   }
 
-  // Engineering schools after CPGE
   const engineeringSchools = [
     {
       title: "EMI",
