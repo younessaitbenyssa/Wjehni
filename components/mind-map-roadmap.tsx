@@ -48,7 +48,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     },
   }
 
-  // Moroccan education paths
   const educationPaths = [
     {
       id: "bac",
