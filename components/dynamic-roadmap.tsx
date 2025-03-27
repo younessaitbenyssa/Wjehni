@@ -154,7 +154,7 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
                     const careerNodeId = `career-${pathIndex}-${instIndex}-${nextStepIndex}`
                     const careerDetails = nextStep.careers.join(", ")
 
-                    // Add career node
+                    
                     apiNodes.push({
                       id: careerNodeId,
                       type: "pathNode",
