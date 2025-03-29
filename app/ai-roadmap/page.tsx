@@ -25,7 +25,6 @@ export default function AIRoadmapPage() {
     setProfileData(data)
 
     try {
-      // Call the API route with the form data
       const response = await fetch("/api/generate-roadmap", {
         method: "POST",
         headers: {
