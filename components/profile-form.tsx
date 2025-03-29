@@ -42,8 +42,6 @@ export default function ProfileForm({ onSubmit }: ProfileFormProps) {
 
     setLoading(true)
     onSubmit(formData)
-  
-    // This would typically be done in the parent component that handles the onSubmit callback
   }
 
   return (
