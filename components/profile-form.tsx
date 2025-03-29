@@ -42,7 +42,7 @@ export default function ProfileForm({ onSubmit }: ProfileFormProps) {
 
     setLoading(true)
     onSubmit(formData)
-    // Note: You'll need to set loading back to false when the map generation is complete
+  
     // This would typically be done in the parent component that handles the onSubmit callback
   }
 
