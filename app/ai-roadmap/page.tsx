@@ -43,7 +43,6 @@ export default function AIRoadmapPage() {
         throw new Error("API response missing roadmap data")
       }
 
-      // Store the roadmap data
       setRoadmapData(result.roadmap)
       setShowMindMap(true)
     } catch (error) {
