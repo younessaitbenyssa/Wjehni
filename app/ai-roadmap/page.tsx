@@ -60,7 +60,6 @@ export default function AIRoadmapPage() {
   }
 
   const handleExportImage = () => {
-    // In a real app, this would export the mind map as an image
     alert("This would export the mind map as an image in a production app.")
   }
 
