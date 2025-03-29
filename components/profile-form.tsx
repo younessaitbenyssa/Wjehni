@@ -34,7 +34,7 @@ export default function ProfileForm({ onSubmit }: ProfileFormProps) {
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault()
 
-    // Validate required fields
+    
     if (!formData.age || !formData.regionalExamGrade || !formData.nationalExamGrade || !formData.baccalaureateMajor) {
       setFormError("Please fill in all required fields")
       return
