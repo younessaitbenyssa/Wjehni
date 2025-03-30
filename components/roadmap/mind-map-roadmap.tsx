@@ -308,7 +308,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     ],
   }
 
-  // Add a new section for detailed CPGE to Engineering Schools pathway
   const cpgeToEngineeringPathway = {
     title: "CPGE to Engineering Schools Pathway",
     description: "The most common path to top engineering schools in Morocco",
