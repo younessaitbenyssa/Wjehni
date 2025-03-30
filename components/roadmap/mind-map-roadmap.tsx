@@ -259,7 +259,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     },
   ]
 
-  // Detailed example pathway for a student with Bac in Math Science with 16/20
   const examplePathway = {
     profile: "Baccalaureate in Math Science with 16/20",
     options: [
