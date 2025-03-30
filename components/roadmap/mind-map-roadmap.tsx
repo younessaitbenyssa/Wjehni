@@ -189,7 +189,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     },
   ]
 
-  // Career paths based on education level
   const careerPaths = {
     technical: [
       { title: "Technician", field: "Various Industries" },
