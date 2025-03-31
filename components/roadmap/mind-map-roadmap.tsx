@@ -338,7 +338,7 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     ],
   }
 
-  // Add a new section for FST/FS to Engineering pathway
+  
   const universityToEngineeringPathway = {
     title: "University to Engineering Pathway",
     description: "Alternative paths through university system",
