@@ -521,7 +521,7 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
 
                 {/* Path Options */}
                 {eduPath.paths.map((path, pathIndex) => {
-                  // Calculate position based on the number of paths
+                  
                   const totalPaths = eduPath.paths.length
                   const angle = (pathIndex / totalPaths) * Math.PI - Math.PI / 2
                   const radius = 250 // Distance from parent node
