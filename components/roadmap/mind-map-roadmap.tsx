@@ -526,7 +526,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
                   const angle = (pathIndex / totalPaths) * Math.PI - Math.PI / 2
                   const radius = 250 // Distance from parent node
 
-                  // Calculate x and y coordinates
                   const x = Math.cos(angle) * radius
                   const y = Math.sin(angle) * radius
 
