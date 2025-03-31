@@ -51,7 +51,7 @@ export default function DetailedRoadmap({ roadmap }: DetailedRoadmapProps) {
     },
   }
 
-  // Additional Moroccan education paths based on the baccalaureate
+  
   const moroccanPaths = [
     {
       title: "EST (École Supérieure de Technologie)",
