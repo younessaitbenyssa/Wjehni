@@ -373,7 +373,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     ],
   }
 
-  // Add a new section for Technical Paths (EST/BTS/OFPPT)
   const technicalPathways = {
     title: "Technical Education Pathways",
     description: "Practical and professional training options",
