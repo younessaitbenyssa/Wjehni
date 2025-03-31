@@ -404,7 +404,6 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     ],
   }
 
-  // Add a new section for Military Engineering Pathways
   const militaryPathways = {
     title: "Military Engineering Pathways",
     description: "Engineering education within military institutions",
