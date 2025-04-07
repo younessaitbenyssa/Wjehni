@@ -225,4 +225,3 @@ export default function DynamicRoadmap({ roadmapData, profileData, onNodeClick }
     </div>
   )
 }
-
