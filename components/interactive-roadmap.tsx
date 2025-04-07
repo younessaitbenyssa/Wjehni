@@ -40,4 +40,3 @@ export default function InteractiveRoadmap({ roadmap }: InteractiveRoadmapProps)
     </div>
   )
 }
-
