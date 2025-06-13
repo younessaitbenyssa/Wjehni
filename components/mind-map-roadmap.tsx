@@ -978,4 +978,3 @@ export default function MindMapRoadmap({ roadmap }: MindMapRoadmapProps) {
     </div>
   )
 }
-
